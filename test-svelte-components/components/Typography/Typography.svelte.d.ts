@@ -5,9 +5,9 @@ export default class Typography extends SvelteComponentTyped<{
     [x: string]: any;
     variant?: string;
     color?: string;
+    id?: any;
     textGradient?: boolean;
     as?: any;
-    id?: any;
 }, {
     [evt: string]: CustomEvent<any>;
 }, {
@@ -23,9 +23,9 @@ declare const __propDef: {
         [x: string]: any;
         variant?: string;
         color?: string;
+        id?: any;
         textGradient?: boolean;
         as?: any;
-        id?: any;
     };
     events: {
         [evt: string]: CustomEvent<any>;
