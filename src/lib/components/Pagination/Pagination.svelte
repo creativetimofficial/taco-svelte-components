@@ -1,12 +1,12 @@
 <script>
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import {
     prevNextElement,
     getPaginationClass,
     itemPagination,
   } from "./pagination.js";
   import { createEventDispatcher } from "svelte";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let pageCount = 0;
   export let perPage = 10;

@@ -1,9 +1,9 @@
 <script>
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import { getClass, dismissibleClass, iconClass } from "./alert.js";
   import { fly } from "svelte/transition";
   import { createEventDispatcher } from "svelte";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "filled";
   export let color = "blue";

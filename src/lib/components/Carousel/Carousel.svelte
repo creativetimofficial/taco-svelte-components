@@ -7,7 +7,7 @@
         beltContainerClass,
         getBeltButtonStyling,
     } from "./carousel.js";
-    import { variantStyle } from "@/utils/colors.js";
+    import { variantStyle } from "../../utils/colors.js";
 
     export let images = [];
     export let color = "gray";

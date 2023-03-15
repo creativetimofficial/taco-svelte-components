@@ -1,7 +1,7 @@
 <script>
   import { backdrop, getContainerClass } from "./dialog.js";
   import { fly, fade } from "svelte/transition";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let open = false;
   export let size = "md";

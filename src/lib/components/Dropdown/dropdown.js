@@ -1,8 +1,8 @@
-import { shadow } from "@/utils/shadow.js";
-import { border } from "@/utils/border.js";
-import { text } from "@/utils/text.js";
-import { states } from "@/utils/states.js";
-import { variantStyle } from "@/utils/colors.js";
+import { shadow } from "../../utils/shadow.js";
+import { border } from "../../utils/border.js";
+import { text } from "../../utils/text.js";
+import { states } from "../../utils/states.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export function getContainerClass(position) {
   const structureClass = {

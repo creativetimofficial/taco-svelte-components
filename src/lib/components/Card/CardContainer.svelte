@@ -1,5 +1,5 @@
 <script>
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import { getContainerClass } from "./card";
   export let variant = "filled";
   export let color = "white";

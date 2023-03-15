@@ -1,4 +1,4 @@
-import { states } from "@/utils/states.js";
+import { states } from "../../utils/states.js";
 
 export const containerClass =
   "items-center rounded-full cursor-pointer flex p-3 relative overflow-hidden";

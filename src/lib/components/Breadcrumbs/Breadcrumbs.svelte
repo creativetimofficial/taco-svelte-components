@@ -1,6 +1,6 @@
 <script>
   import { getRootClass, separator, list, getItemClass } from "./breadcrumbs";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let items = [];
   export let divider = "/";

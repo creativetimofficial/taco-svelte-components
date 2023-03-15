@@ -1,5 +1,5 @@
-import { variantStyle } from "@/utils/colors.js";
-import { shadow } from "@/utils/shadow.js";
+import { variantStyle } from "../../utils/colors.js";
+import { shadow } from "../../utils/shadow.js";
 
 export const body = "p-6";
 

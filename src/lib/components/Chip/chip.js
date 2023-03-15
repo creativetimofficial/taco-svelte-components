@@ -1,5 +1,5 @@
-import { variantStyle } from "@/utils/colors.js";
-import { states } from "@/utils/states.js";
+import { variantStyle } from "../../utils/colors.js";
+import { states } from "../../utils/states.js";
 
 export function getClass(variant, color) {
   const structureClass = {

@@ -1,4 +1,4 @@
-import { variantStyle } from "@/utils/colors.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export function getPaginationClass(size, color) {
   const sizes = {

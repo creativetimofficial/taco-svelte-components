@@ -6,11 +6,11 @@
     getInputClass,
     containerIcon,
   } from "./checkbox.js";
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import Ripple from "material-ripple-effects";
   import { forwardEventsBuilder } from "../forwardEvents";
   import { get_current_component } from "svelte/internal";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
   const self = get_current_component();
 
   const forwardEvents = forwardEventsBuilder(self);

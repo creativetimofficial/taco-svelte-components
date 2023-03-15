@@ -1,4 +1,4 @@
-import { variantStyle } from "@/utils/colors.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export const imageContainerClass = "pb-[56.25%] relative"
 export const imageClass = "absolute h-full w-full object-cover border rounded-md"

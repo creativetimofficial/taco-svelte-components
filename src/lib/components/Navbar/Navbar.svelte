@@ -10,8 +10,8 @@
     getIconClass,
     linksClass,
   } from "./navbar.js";
-  import { variantStyle } from "@/utils/colors.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { variantStyle } from "../../utils/colors.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "filled";
   export let color = "white";

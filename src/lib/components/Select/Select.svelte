@@ -8,10 +8,10 @@
     getSelectClass,
     spanClass,
   } from "./select.js";
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import { fly } from "svelte/transition";
   import ClickOutside from "svelte-click-outside";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "outlined";
   export let size = "md";

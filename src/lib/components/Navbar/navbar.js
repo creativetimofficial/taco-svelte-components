@@ -1,4 +1,4 @@
-import { variantStyle } from "@/utils/colors.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export function getNavbarClass(variant, color, blurred, fullWidth, shadow) {
   const excludedColors = ["amber", "lime", "yellow", "white", "transparent"];

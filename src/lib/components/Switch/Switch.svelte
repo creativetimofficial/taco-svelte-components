@@ -7,9 +7,9 @@
     getInputClass,
     circleClass,
   } from "./switch.js";
-  import { variantStyle } from "@/utils/colors.js";
+  import { variantStyle } from "../../utils/colors.js";
   import Ripple from "material-ripple-effects";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   const rippleInit = new Ripple();
 

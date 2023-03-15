@@ -1,6 +1,6 @@
 <script>
   import { fileClass } from "./file.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   const uuid = makeid(7);
 </script>

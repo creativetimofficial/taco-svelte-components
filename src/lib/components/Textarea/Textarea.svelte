@@ -4,8 +4,8 @@
     getTextareaClass,
     getLabelClass,
   } from "./textarea.js";
-  import { variantStyle } from "@/utils/colors.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { variantStyle } from "../../utils/colors.js";
+  import { makeid } from "../../utils/generateID.js";
 
   let uuid = makeid(7);
   export let variant = "outlined";

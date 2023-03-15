@@ -1,4 +1,4 @@
-import { fill } from "@/utils/fill.js";
+import { fill } from "../../utils/fill.js";
 
 export function getSpinnerClass(size, color, variant) {
   const structureClass = {

@@ -1,7 +1,7 @@
 <script>
   import Colors from "@material-tailwind/html/theme/base/colors";
   import { getClass } from "./typography.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "paragraph";
   export let color = "inherit";

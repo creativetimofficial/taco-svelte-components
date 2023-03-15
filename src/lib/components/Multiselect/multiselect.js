@@ -1,4 +1,4 @@
-import { variantStyle } from "@/utils/colors.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export const headerClass = "flex justify-between items-center p-2 bg-white border border-gray-200 rounded-lg cursor-pointer shadow-sm"
 export const badgesContainer = "flex flex-row flex-wrap"

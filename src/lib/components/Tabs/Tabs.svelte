@@ -8,7 +8,7 @@ import {
 import { forwardEventsBuilder } from "../forwardEvents";
 import { get_current_component } from "svelte/internal";
 import { fade } from "svelte/transition";
-import { makeid } from "@/utils/generateID.js";
+import { makeid } from "../../utils/generateID.js";
 import { onMount } from "svelte";
 const self = get_current_component();
 const forwardEvents = forwardEventsBuilder(self);

@@ -1,5 +1,5 @@
 <script>
-import { variantStyle } from "@/utils/colors.js";
+import { variantStyle } from "../../utils/colors.js";
 import {
   getStyling,
   getListClass,
@@ -10,7 +10,7 @@ import { forwardEventsBuilder } from "../forwardEvents";
 import { get_current_component } from "svelte/internal";
 import { fly } from "svelte/transition";
 import ClickOutside from "svelte-click-outside";
-import { makeid } from "@/utils/generateID.js";
+import { makeid } from "../../utils/generateID.js";
 const self = get_current_component();
 
 const forwardEvents = forwardEventsBuilder(self);

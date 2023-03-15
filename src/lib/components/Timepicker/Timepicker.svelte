@@ -1,7 +1,7 @@
 <script>
     import { getContainerClass, getInputClass } from "./timepicker.js";
     import ClickOutside from "svelte-click-outside";
-    import { makeid } from "@/utils/generateID.js";
+    import { makeid } from "../../utils/generateID.js";
     import { onMount } from "svelte";
 
     export let modelValue;

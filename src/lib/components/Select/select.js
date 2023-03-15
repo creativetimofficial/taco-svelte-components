@@ -1,6 +1,6 @@
-import { states } from "@/utils/states.js";
-import { text } from "@/utils/text.js";
-import { border } from "@/utils/border.js";
+import { states } from "../../utils/states.js";
+import { text } from "../../utils/text.js";
+import { border } from "../../utils/border.js";
 
 export function getContainerClass(variant, size) {
   const structureClass = {

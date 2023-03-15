@@ -8,7 +8,7 @@
         dropdownContainer,
         getItemClass,
     } from "./multiselect.js";
-    import { variantStyle } from "@/utils/colors.js";
+    import { variantStyle } from "../../utils/colors.js";
     import { fly } from "svelte/transition";
     import ClickOutside from "svelte-click-outside";
 

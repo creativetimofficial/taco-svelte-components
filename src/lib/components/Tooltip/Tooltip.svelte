@@ -1,7 +1,7 @@
 <script>
   import { getTooltipClass, containerClass } from "./tooltip.js";
   import { fade } from "svelte/transition";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let placement = "top";
   export let label = "Tooltip";

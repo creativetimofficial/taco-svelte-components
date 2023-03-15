@@ -1,4 +1,4 @@
-import { states } from "@/utils/states.js";
+import { states } from "../../utils/states.js";
 
 export const containerClass =
   "rounded-full cursor-pointer inline-block h-4 w-8 relative";

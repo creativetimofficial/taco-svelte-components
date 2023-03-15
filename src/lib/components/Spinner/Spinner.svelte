@@ -1,11 +1,11 @@
 <script>
-  import { fill } from "@/utils/fill.js";
+  import { fill } from "../../utils/fill.js";
   import {
     getSpinnerClass,
     getContainerClass,
     getGradientSpinner,
   } from "./spinner.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "filled";
   export let size = "lg";

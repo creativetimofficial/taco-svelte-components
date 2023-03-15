@@ -1,5 +1,5 @@
 {
-	"name": "test-svelte-components",
+	"name": "@notus-ui/svelte",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -19,8 +19,5 @@
 	"exports": {
 		".": "./index.js"
 	},
-	"module": "index.js",
-	"dependencies": {
-		"svelte2tsx": "^0.6.9"
-	}
+	"module": "index.js"
 }

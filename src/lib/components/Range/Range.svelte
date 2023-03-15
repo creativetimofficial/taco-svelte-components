@@ -1,6 +1,6 @@
 <script>
   import { labelClass, getInputClass } from "./range.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
 
   const uuid = makeid(7);
 

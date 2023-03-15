@@ -1,7 +1,7 @@
 <script>
   import { getContainerClass, getBarClass } from "./progress.js";
-  import { variantStyle } from "@/utils/colors.js";
-  import { makeid } from "@/utils/generateID.js";
+  import { variantStyle } from "../../utils/colors.js";
+  import { makeid } from "../../utils/generateID.js";
 
   export let variant = "filled";
   export let color = "blue";

@@ -1,7 +1,7 @@
 <script>
   import { getClasses } from "./datepicker.js";
   import ClickOutside from "svelte-click-outside";
-  import { makeid } from "@/utils/generateID.js";
+  import { makeid } from "../../utils/generateID.js";
   import { onMount } from "svelte";
 
   const MONTH_NAMES = [

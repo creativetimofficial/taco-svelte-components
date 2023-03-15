@@ -1,4 +1,4 @@
-import { states } from "@/utils/states.js";
+import { states } from "../../utils/states.js";
 
 export function getContainerClass(size, variant) {
   const structureClass = {

@@ -1,7 +1,7 @@
 <script>
     import { getButtonStyling, inputClass, containerClass } from "./counter.js";
-    import { variantStyle } from "@/utils/colors.js";
-    import { makeid } from "@/utils/generateID.js";
+    import { variantStyle } from "../../utils/colors.js";
+    import { makeid } from "../../utils/generateID.js";
 
     export let value = 0;
     export let color = "green";

@@ -1,5 +1,5 @@
-import { text } from "@/utils/text.js";
-import { variantStyle } from "@/utils/colors.js";
+import { text } from "../../utils/text.js";
+import { variantStyle } from "../../utils/colors.js";
 
 export function getClass(variant, color, textGradient) {
   const structureClass = {
