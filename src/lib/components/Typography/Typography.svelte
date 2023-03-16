@@ -1,5 +1,5 @@
 <script>
-  import Colors from "@material-tailwind/html/theme/base/colors";
+  import { variantStyle } from "../../utils/colors.js";
   import { getClass } from "./typography.js";
   import { makeid } from "../../utils/generateID.js";
 
@@ -26,7 +26,7 @@
 
   function getClasses(variant, color, textGradient) {
     variant = options.includes(variant) ? variant : "paragraph";
-    color = Colors.hasOwnProperty(color) ? color : "inherit";
+    color = variantStyle.filled.hasOwnProperty(color) ? color : "inherit";
     const style = getClass(variant, color, textGradient);
     return `${style}`;
   }

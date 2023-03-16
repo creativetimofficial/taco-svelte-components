@@ -2,8 +2,8 @@ import { variantStyle } from "../../utils/colors.js";
 
 export function getContainerClass(withLabel) {
   return `${
-    withLabel ? "rounded h-4 " : ""
-  }bg-blue-gray-50 rounded-sm flex font-sans text-xs font-medium h-1.5 flex-start overflow-hidden w-full`;
+    withLabel ? "h-4 " : "h-1.5 "
+  }bg-blue-gray-50 rounded-sm flex font-sans text-xs font-medium flex-start overflow-hidden w-full`;
 }
 
 export function getBarClass(variant, color) {

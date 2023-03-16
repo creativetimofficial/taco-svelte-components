@@ -1,5 +1,5 @@
 {
-	"name": "@notus-ui/svelte",
+	"name": "@lorena-cocora-updivision/test-svelte-components",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
