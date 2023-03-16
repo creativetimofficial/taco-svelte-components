@@ -1,6 +1,6 @@
 {
   "name": "@notus-ui/svelte",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
@@ -10,7 +10,8 @@
   "svelte": "./index.js",
   "dependencies": {
 		"svelte-click-outside": "^1.0.0",
-    "@material-tailwind/html": "^2.0.0"
+    "@material-tailwind/html": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3"
 	},
   "devDependencies": {
     "tailwindcss": "^3.2.4"
