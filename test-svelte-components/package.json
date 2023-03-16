@@ -1,0 +1,25 @@
+{
+  "name": "@notus-ui/svelte",
+  "version": "0.0.3",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  },
+  "module": "index.js",
+  "svelte": "./index.js",
+  "dependencies": {
+		"svelte-click-outside": "^1.0.0",
+    "@material-tailwind/html": "^2.0.0"
+	},
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "files": [
+    "components",
+    "utils",
+    "index.js",
+    "index.d.ts"
+  ],
+  "license": "MIT"
+}
