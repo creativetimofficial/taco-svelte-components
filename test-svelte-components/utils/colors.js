@@ -21,10 +21,11 @@ export const variantStyle = {
     red: "bg-red-500",
     transparent: "bg-transparent",
     white: "bg-white",
+    black: 'bg-black',
   },
   gradient: {
     "blue-gray": "bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400",
-    gray: "bg-gradient-to-tr from-gray-600 to-gray-400",
+    gray: "bg-gradient-to-tr from-gray-900 to-gray-800",
     brown: "bg-gradient-to-tr from-brown-600 to-brown-400",
     "deep-orange": "bg-gradient-to-tr from-deep-orange-600 to-deep-orange-400",
     orange: "bg-gradient-to-tr from-orange-600 to-orange-400",
