@@ -1,6 +1,6 @@
 {
   "name": "@ct-taco/svelte",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
@@ -9,10 +9,10 @@
   "module": "index.js",
   "svelte": "./index.js",
   "dependencies": {
-		"svelte-click-outside": "^1.0.0",
+    "svelte-click-outside": "^1.0.0",
     "@material-tailwind/html": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^2.0.3"
-	},
+  },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
   },
