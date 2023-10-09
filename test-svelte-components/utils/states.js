@@ -300,6 +300,7 @@ export const states = {
       purple: "checked:bg-purple-500",
       pink: "checked:bg-pink-500",
       red: "checked:bg-red-500",
+      black: 'checked:bg-black',
     },
     border: {
       "blue-gray": "checked:border-blue-gray-500",
@@ -389,6 +390,7 @@ export const states = {
         purple: "peer-checked:before:bg-purple-500",
         pink: "peer-checked:before:bg-pink-500",
         red: "peer-checked:before:bg-red-500",
+        black: "peer-checked:before:bg-black",
       },
     },
   },
