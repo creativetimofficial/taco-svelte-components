@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:creativetimofficial/package-svelte-components.git"
+    "url": "git@github.com:creativetimofficial/taco-svelte-components.git"
   },
   "keywords": [
     "svelte",
